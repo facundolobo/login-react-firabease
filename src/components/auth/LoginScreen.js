@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from '../../hooks/useForm';
-import { startLoginEmailPassword, startRegisterWithEmailPasswordName } from '../../actions/auth'
+import { startLoginEmailPassword } from '../../actions/auth'
 import { useDispatch, useSelector } from 'react-redux'
 
 import './login.css';
