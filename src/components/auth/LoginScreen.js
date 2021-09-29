@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+
 import { useForm } from '../../hooks/useForm';
 import { startLoginEmailPassword } from '../../actions/auth'
 import { useDispatch, useSelector } from 'react-redux'
@@ -58,7 +61,13 @@ export const LoginScreen = () => {
           </form>
           {/* Remind Passowrd */}
           <div id="formFooter">
-          <p className="text-center">Do not have an account? <a className="txt-brand" href="./register">Create an account</a></p>
+          <p className="text-center">Do not have an account?
+                <Link 
+                    to="/auth/register"
+                    className="link"
+                >
+                    Create new account    
+                </Link></p>
           </div>
         </div>
       </div>

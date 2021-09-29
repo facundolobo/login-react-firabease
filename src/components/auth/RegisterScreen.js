@@ -1,5 +1,6 @@
 import React from 'react';
 import Swal from 'sweetalert2';
+import { Link } from 'react-router-dom';
 
 import './register.css';
 
@@ -120,7 +121,13 @@ export const RegisterScreen = () => {
                 </form>
                 </div>
                 <div className="login-links">
-                <p className="text-center">Already have an account? <a className="txt-brand" href="./login">Login</a></p>
+                <p className="text-center">Already have an account?
+                <Link 
+                    to="/auth/login"
+                    className="link"
+                >
+                    Already registered?
+                </Link></p>
                 </div>
             </main>
 
