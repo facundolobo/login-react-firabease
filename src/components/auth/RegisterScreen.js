@@ -120,7 +120,7 @@ export const RegisterScreen = () => {
                 </form>
                 </div>
                 <div className="login-links">
-                <p className="text-center">Already have an account? <a className="txt-brand" href="/auth/login">Login</a></p>
+                <p className="text-center">Already have an account? <a className="txt-brand" href="./login">Login</a></p>
                 </div>
             </main>
 

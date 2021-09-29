@@ -58,7 +58,7 @@ export const LoginScreen = () => {
           </form>
           {/* Remind Passowrd */}
           <div id="formFooter">
-          <p className="text-center">Do not have an account? <a className="txt-brand" href="/auth/register">Create an account</a></p>
+          <p className="text-center">Do not have an account? <a className="txt-brand" href="./register">Create an account</a></p>
           </div>
         </div>
       </div>
