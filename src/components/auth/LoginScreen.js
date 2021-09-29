@@ -33,8 +33,8 @@ export const LoginScreen = () => {
         <div id="formContent">
           {/* Tabs Titles */}
           {/* Icon */}
-          <div className="fadeIn first">
-          <h1>Log in</h1>
+          <div className="register-block">
+            <h1>Log in</h1>
           </div>
           {/* Login Form */}
           <form onSubmit={handleLogin}>

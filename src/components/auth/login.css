@@ -1,6 +1,9 @@
-html {
-    background-color: #56baed;
-  }
+.register-block h1,.register-block h6
+{
+  font-family:Open Sans,sans-serif;
+  color:#96a2b2;
+  letter-spacing:1px
+}
   
   body {
     font-family: "Poppins", sans-serif;
